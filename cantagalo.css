@@ -1,0 +1,77 @@
+.form-login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1px;
+    border-style: solid;
+    padding: 1em;
+    width: 25em;
+}
+
+.form-label {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 10em;
+    margin-right: 1em;
+}
+
+
+.forminput {
+    max-width: 15em;
+    
+}
+
+.forminput:hover {
+    border: tomato;
+    border-style: solid;
+    
+}
+
+.classdivmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.body {
+    height: calc(100vh - 128px);
+    width: 100%;
+    margin-top: 3em;
+}
+
+.std-footer {
+    width: 100%;
+    background-color: brown;
+    height: 64px;
+    position: fixed;
+    bottom: 0;
+
+
+}
+
+.std-header {
+    width: 100%;
+    background-color: brown;
+    height: 64px;
+    position: fixed;
+    top: 0;
+
+}
+
+.btn-submit {
+    margin-top: 2em;
+    color: white;
+    background-color: blue;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
